@@ -50,6 +50,7 @@ $purple: #9482bf;
   color: #9482bf;
 }
 
+
 body {
   margin: 0 0;
   box-sizing: border-box;
@@ -86,7 +87,7 @@ nav {
     margin: 0 0;
   }
   .about-dates {
-    font-size: 2em;
+    font-size: 1.8em;
     padding: 10px 0;
     letter-spacing: 4px;
   }
@@ -112,4 +113,27 @@ nav {
       margin: 0 0;
       font-size: 4em;
   }
+}
+
+.tix-info {
+  font-size: 2em;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.donate-btn {
+  text-decoration: none;
+  color: $purple;
+  border: 1px solid $purple;
+  padding: 15px 30px;
+
+}
+
+.location {
+  margin-top: 80px;
+}
+
+.map {
+  width: 600px;
+  margin: 0 auto;
 }
