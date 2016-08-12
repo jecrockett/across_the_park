@@ -24,6 +24,8 @@
   src: url('/assets/Avenir.otf');
 }
 
+$purple: #9482bf;
+
 .align-top {
   vertical-align: top;
 }
@@ -69,7 +71,7 @@ nav {
 }
 
 .about-container {
-  height: 77vh;
+  height: 85vh;
   > div {
     display: inline-block;
     margin-left: 5%;
