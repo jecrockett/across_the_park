@@ -186,3 +186,42 @@ nav {
 footer {
   height: 80px;
 }
+
+
+/* ====== TEAM PAGE ====== */
+
+.bio div {
+  display: inline-block;
+}
+
+.bio-image {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.bio-block1 {
+  width: 40%;
+  text-align: center;
+  margin-left: 8%;
+  padding-top: 20px;
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  * {
+    padding: 5px 0;
+  }
+}
+
+.bio-block2 {
+  width: 40%;
+  // padding-top: 80px;
+  .text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    padding-top: 10px;
+  }
+}
