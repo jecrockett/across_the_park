@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'welcome#home'
+  root 'main#home'
+  get 'team', to: 'main#team'
 end

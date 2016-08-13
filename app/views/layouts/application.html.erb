@@ -8,8 +8,46 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <nav>
+    <ul class='sm-links'>
+      <li>
+        <a href="https://www.facebook.com/ACROSSTHEPARK">
+          <%= icon('facebook-square fa-lg') %>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/acrosstheparkplay/?hl=en">
+          <%= icon('instagram fa-lg') %>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/ATPplay">
+          <%= icon('twitter-square fa-lg') %>
+        </a>
+      </li>
+    </ul>
+    <ul class='site-links'>
+      <li>
+        <a href="#">HOME</a>
+      </li>
+      <li>
+        <a href="team">TEAM</a>
+      </li>
+      <li>
+        <a href="#">CONTACT</a>
+      </li>
+      <li>
+        <a href="https://www.fracturedatlas.org/site/fiscal/profile?id=14612">DONATE</a>
+      </li>
+      <li>
+        <a class='orange-text' href="#">PURCHASE TICKETS</a>
+      </li>
+    </ul>
+  </nav>
 
 <%= yield %>
 
+  <footer>
+  </footer>
 </body>
 </html>

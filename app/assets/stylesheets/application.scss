@@ -29,6 +29,7 @@
 
 $purple: #9482bf;
 $gray:   #9e9e9e;
+$orange: #F6871F;
 
 .gray-text {
   color: #9e9e9e;
@@ -36,6 +37,10 @@ $gray:   #9e9e9e;
 
 .purple-text {
   color: #9482bf;
+}
+
+.orange-text {
+  color: #F6871F;
 }
 
 a {
@@ -142,7 +147,7 @@ nav {
 .donate-btn {
   text-decoration: none;
   color: $purple;
-  border: 1px solid $purple;
+  border: 1px solid $orange;
   padding: 17px 30px 14px 30px;
 }
 
@@ -163,6 +168,10 @@ nav {
   p {
     padding-top: 8px;
   }
+}
+
+.press-piece:hover {
+  border: 1px solid $purple;
 }
 
 .location {
