@@ -18,8 +18,11 @@
 @import "font-awesome";
 
 @font-face {
-  font-family: "Phosphate";
-  src: url('/assets/phosphate.ttf');
+    font-family: 'phosphatesolid';
+    src: url('phosphate-webfont.woff2') format('woff2'),
+         url('phosphate-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -68,7 +71,7 @@ a {
 }
 
 .phosphate {
-  font-family: 'Phosphate', 'arial';
+  font-family: 'phosphatesolid';
 }
 
 body * {
