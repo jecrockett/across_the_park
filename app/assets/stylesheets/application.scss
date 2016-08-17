@@ -146,11 +146,13 @@ nav {
 
 .tix-info {
   font-size: 2em;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
   text-align: center;
   margin-bottom: 100px;
-  p {
-    margin-bottom: 30px;
+  a {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
   }
 }
 
@@ -262,5 +264,31 @@ footer {
   text-align: center;
   a:first-child {
     margin-right: 5%;
+  }
+}
+
+/* ====== CONTACT PAGE ====== */
+
+.contact-page {
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'avenir';
+  font-size: 1.6em;
+  p {
+    padding: 15px 0;
+  }
+  div {
+    padding-top: 50px;
+    a {
+      background-color: $purple;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    p {
+      font-size: .5em;
+      color: $gray;
+      padding-top: 25px;
+    }
   }
 }
