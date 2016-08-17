@@ -36,8 +36,6 @@
   src: url('/assets/avenir-thin.otf');
 }
 
-
-
 $purple: #9482bf;
 $gray:   #9e9e9e;
 $orange: #F6871F;
@@ -121,13 +119,13 @@ nav {
   .about-dates {
     font-size: 1.8em;
     letter-spacing: 4px;
-    padding: 17px 0 5px 0;
+    padding: 10px 0;
   }
 }
 
 .about-block2 {
   width: 52%;
-  margin-top: 68px;
+  margin-top: 63px;
   .summary-text {
     font-size: 19px;
     letter-spacing: 1px;
@@ -137,8 +135,9 @@ nav {
 }
 
 .section-title {
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 8px;
+    padding-bottom: 20px;
 }
 
 .title-divider {
@@ -157,9 +156,10 @@ nav {
 
 .donate-btn {
   text-decoration: none;
-  color: $purple;
-  border: 1px solid $orange;
+  color: white;
+  background-color: $purple;
   padding: 17px 30px 14px 30px;
+  border-radius: 10px;
 }
 
 .press {
@@ -239,6 +239,9 @@ footer {
     line-height: 1.4em;
     padding-top: 10px;
     font-family: 'Avenir-Thin';
+    span {
+      font-style: italic;
+    }
   }
   a:hover {
     color: $purple;
@@ -251,4 +254,13 @@ footer {
 
 #maureen-bio .bio-block2 {
   padding-top: 10%;
+}
+
+#team-actionbtns {
+  padding-top: 50px;
+  font-size: 2em;
+  text-align: center;
+  a:first-child {
+    margin-right: 5%;
+  }
 }
