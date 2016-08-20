@@ -400,32 +400,22 @@ footer {
       display: block;
     }
     .site-links {
-      display: none;
+      position: absolute;
+      padding: 10px;
+      background: #fff;
+      border: 5px solid #444;
+      right: 20px;
+      top: 60px;
+      width: 200px;
+      border-radius: 4px 0 4px 4px;
+      line-height: 40px;
+      li {
+        text-align: center;
+        width: 100%;
+        padding: 0 0;
+        margin: 0 0;
+      }
     }
-  }
-
-  .links-container .site-links, .links-container:active .site-links {
-    position: absolute;
-    padding: 10px;
-    background: #fff;
-    border: 5px solid #444;
-    right: 20px;
-    top: 60px;
-    width: 200px;
-    border-radius: 4px 0 4px 4px;
-    line-height: 40px;
-  }
-
-  .site-links li {
-    text-align: center;
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0;
-
-  }
-
-  .links-container:hover .site-links {
-    display: block;
   }
 
   #large-hero {
@@ -504,37 +494,30 @@ footer {
     .mobile-menu {
       display: block;
       line-height: 120px;
-      font-size: 4em;
     }
     .site-links {
-      display: none;
+      // display: none;
+      position: absolute;
+      padding: 10px;
+      background: #fff;
+      border: 5px solid #444;
+      right: 20px;
+      top: 80px;
+      width: 200px;
+      border-radius: 4px 0 4px 4px;
+      line-height: 40px;
+      li {
+        text-align: center;
+        width: 100%;
+        padding: 0 0;
+        margin: 0 0;
+      }
     }
   }
 
-  .links-container .site-links, .links-container:active .site-links {
-    position: absolute;
-    padding: 10px;
-    background: #fff;
-    border: 5px solid #444;
-    right: 20px;
-    top: 60px;
-    width: 200px;
-    border-radius: 4px 0 4px 4px;
-    line-height: 40px;
-  }
-
-  .site-links li {
-    text-align: center;
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0;
-
-  }
-
-  .links-container:hover .site-links {
-    display: block;
-  }
-
+  // .links-container:hover .site-links {
+  //   display: block;
+  // }
 
    #large-hero {
      display: none;
