@@ -15,23 +15,24 @@
 //= require turbolinks
 //= require_tree .
 
-$( document ).ready(function() {
-  console.log( "ready!" );
-  setMobileMenu();
-  $('.mobile-menu').on('click', function() {
-    $('.site-links').toggleClass('hidden');
-  });
-
-  $(window).on('resize', function(){
-    setMobileMenu();
-  });
-});
-
-function setMobileMenu() {
-  var win = $(window);
-  if (win.width() <= 768) {
-    $('.site-links').addClass('hidden');
-  } else {
-    $('.site-links').removeClass('hidden');
-  }
-}
+// $( document ).ready(function() {
+//   console.log( "ready!" );
+//   resetMenu();
+//   setMobileMenu();
+//   $('.mobile-menu').on('click', function() {
+//     $('.site-links').toggleClass('hidden');
+//   });
+//
+//   $(window).on('resize', function(){
+//     setMobileMenu();
+//   });
+// });
+//
+// function setMobileMenu() {
+//   var win = $(window);
+//   if (win.width() <= 768) {
+//     $('.site-links').addClass('hidden');
+//   } else {
+//     $('.site-links').removeClass('hidden');
+//   }
+// }
