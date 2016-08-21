@@ -24,6 +24,7 @@ $( document ).ready(function() {
   // Weird bug where after selecting a new page using the mobile menu, the mobile menu icon doesn't respond. Definitely a better solution, but this fixes it for now by reloading the new page after navigating there
   $('.mobile-site-links').on('click', function() {
     $( document ).ready(function() {
+    }).promise().done(function() {
       location.reload();
     });
   });
