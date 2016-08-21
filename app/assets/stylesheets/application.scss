@@ -342,6 +342,11 @@ footer {
     width: 300px;
     margin: 0 auto;
   }
+  .required-info {
+    font-size: .8em;
+    color: #909090;
+    text-align: left;
+  }
   .input-field {
     text-align: left;
     padding-top: 20px;
@@ -361,7 +366,7 @@ footer {
       height: 30px;
     }
     textarea {
-      height: 300px;
+      height: 250px;
     }
   }
   .submit-btn {
@@ -370,6 +375,7 @@ footer {
     color: white;
     background-color: $purple;
     border: none;
+    border-radius: 4px;
     font-size: 1.3em;
     margin-top: 20px;
   }
