@@ -1,3 +1,7 @@
+<% flash.each do |type, msg| %>
+  <%= content_tag :div, sanitize(msg), class: "flash_#{type} flash" %>
+<% end %>
+
 <div class="contact-page">
   <p>
     Caroline and Denny met online too.
@@ -6,6 +10,24 @@
     Introduce yourself.
   </p>
   <div>
-    <a id="email-address" href="mailto:acrosstheparkplay@gmail.com">acrosstheparkplay@gmail.com</a>
+    <%= form_tag(contacted_path) do %>
+      <div class="input-field">
+        <%= label_tag :name %>
+        <%= text_field_tag :name %>
+      </div>
+      <div class="input-field">
+        <%= label_tag :email %>
+        <%= text_field_tag :email %>
+      </div>
+      <div class="input-field">
+        <%= label_tag :subject %>
+        <%= text_field_tag :subject %>
+      </div>
+      <div class="input-field">
+        <%= label_tag :message %>
+        <%= text_area_tag :message %>
+      </div>
+      <%= submit_tag "Send" %>
+    <% end %>
   </div>
 </div>

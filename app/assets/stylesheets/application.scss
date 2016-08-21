@@ -395,28 +395,6 @@ footer {
 
 
 @media (max-width : 768px) {
-  // nav {
-  //   .mobile-menu {
-  //     display: block;
-    // }
-    // .site-links {
-    //   position: absolute;
-    //   padding: 10px;
-    //   background: #fff;
-    //   border: 5px solid #444;
-    //   right: 20px;
-    //   top: 60px;
-    //   width: 200px;
-    //   border-radius: 4px 0 4px 4px;
-    //   line-height: 40px;
-    //   li {
-    //     text-align: center;
-    //     width: 100%;
-    //     padding: 0 0;
-    //     margin: 0 0;
-    //   }
-    // }
-  // }
   nav {
     font-size: .8em;
   }
@@ -496,33 +474,7 @@ footer {
     .site-links {
       line-height: 120px;
     }
-    // .mobile-menu {
-    //   display: block;
-    //   line-height: 120px;
-    // }
-    // .site-links {
-    //   display: none;
-    //   position: absolute;
-    //   padding: 10px;
-    //   background: #fff;
-    //   border: 5px solid #444;
-    //   right: 20px;
-    //   top: 80px;
-    //   width: 200px;
-    //   border-radius: 4px 0 4px 4px;
-    //   line-height: 40px;
-    //   li {
-    //     text-align: center;
-    //     width: 100%;
-    //     padding: 0 0;
-    //     margin: 0 0;
-    //   }
-    // }
   }
-
-  // .links-container:hover .site-links {
-  //   display: block;
-  // }
 
    #large-hero {
      display: none;
@@ -541,10 +493,6 @@ footer {
        padding-top: 50px;
      }
    }
-
-  //  #team-actionbtns a:first-child {
-  //    margin-bottom: 50px;
-  //  }
 
    .section-title {
      font-size: 4em;
