@@ -23,7 +23,7 @@ $( document ).ready(function() {
 
   $('.mobile-menu a').on('click', function() {
     console.log('huzzahhh');
-    $('.mobile-site-links').toggleClass('hidden');
+    location.reload(true);
   });
 
 });
