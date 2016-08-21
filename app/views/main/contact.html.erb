@@ -1,33 +1,33 @@
 <% flash.each do |type, msg| %>
-  <%= content_tag :div, sanitize(msg), class: "flash_#{type} flash" %>
+  <%= content_tag :div, sanitize(msg), class: "flash avenir" %>
 <% end %>
 
 <div class="contact-page">
-  <p>
+  <p class="contact-text">
     Caroline and Denny met online too.
   </p>
-  <p>
+  <p class="contact-text">
     Introduce yourself.
   </p>
-  <div>
+  <div class="form-container">
     <%= form_tag(contacted_path) do %>
       <div class="input-field">
-        <%= label_tag :name %>
+        <%= label_tag :name %><br>
         <%= text_field_tag :name %>
       </div>
       <div class="input-field">
-        <%= label_tag :email %>
+        <%= label_tag :email %><br>
         <%= text_field_tag :email %>
       </div>
       <div class="input-field">
-        <%= label_tag :subject %>
+        <%= label_tag :subject %><br>
         <%= text_field_tag :subject %>
       </div>
       <div class="input-field">
-        <%= label_tag :message %>
+        <%= label_tag :message %><br>
         <%= text_area_tag :message %>
       </div>
-      <%= submit_tag "Send" %>
+      <%= submit_tag "Send", class: 'submit-btn avenir' %>
     <% end %>
   </div>
 </div>
