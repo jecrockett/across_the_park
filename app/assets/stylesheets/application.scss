@@ -430,6 +430,23 @@ footer {
 @media (max-width : 768px) {
   nav {
     font-size: .8em;
+    .mobile-menu {
+      display: block;
+    }
+    .site-links {
+      display: none;
+    }
+    .mobile-site-links {
+      position: absolute;
+      top: 80px;
+      right: 40px;
+      font-size: .6em;
+      background-color: white;
+      border: 3px solid $orange;
+      text-align: center;
+      line-height: 40px;
+      padding: 10px 20px;
+    }
   }
 
   #large-hero {
@@ -505,7 +522,23 @@ footer {
       }
     }
     .site-links {
+      display: none;
+    }
+    .mobile-menu {
       line-height: 120px;
+      display: block;
+      padding-right: 15px;
+    }
+    .mobile-site-links {
+      position: absolute;
+      top: 80px;
+      right: 40px;
+      font-size: .8em;
+      background-color: white;
+      border: 3px solid $orange;
+      text-align: center;
+      line-height: 60px;
+      padding: 10px 20px;
     }
   }
 
