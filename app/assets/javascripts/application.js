@@ -16,10 +16,13 @@
 //= require_tree .
 
 $( document ).ready(function() {
-  console.log( "ready!" );
-  // setMobileMenu();
   $('.mobile-menu-icon').on('click', function() {
     console.log('yarrrr');
     $('.mobile-site-links').toggleClass('hidden');
+  });
+
+  // Weird bug where after selecting a new page using the mobile menu, the mobile menu icon doesn't respond. Definitely a better solution, but this fixes it for now by reloading the new page after navigating there
+  $('.mobile-site-links').on('click', function() {
+        location.reload();
   });
 });
