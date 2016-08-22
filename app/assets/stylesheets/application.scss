@@ -473,8 +473,11 @@ footer {
 
   .about-block2 {
     width: 100%;
-    text-align: center;
+    .section-title {
+      text-align: center;
+    }
     .summary-text {
+      text-align: left;
     }
   }
 
@@ -554,8 +557,12 @@ footer {
      display: block;
    }
 
-   .about-block2 .summary-text {
-     font-size: 3em;
+   .about-block2 {
+     padding-top: 20px;
+     .summary-text {
+       font-size: 3em;
+       text-align: left;
+     }
    }
 
    .tix-info {
