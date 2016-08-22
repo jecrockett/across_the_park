@@ -157,6 +157,7 @@ nav {
     letter-spacing: 1px;
     line-height: 1.7em;
     padding-top: 10px;
+    text-align: justify;
   }
 }
 
@@ -409,9 +410,12 @@ footer {
 
   .about-block2 {
     width: 100%;
-    text-align: center;
+    .section-title {
+      text-align: center;
+    }
     .summary-text {
       font-size: 1.5em;
+      text-align: justify;
     }
   }
 
@@ -477,7 +481,7 @@ footer {
       text-align: center;
     }
     .summary-text {
-      text-align: left;
+      text-align: justify;
     }
   }
 
@@ -561,7 +565,7 @@ footer {
      padding-top: 20px;
      .summary-text {
        font-size: 3em;
-       text-align: left;
+       text-align: justify;
      }
    }
 
