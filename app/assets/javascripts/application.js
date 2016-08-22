@@ -14,16 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-$( document ).ready(function() {
-  $('.mobile-menu-icon').on('click', function() {
-    console.log('yarrrr');
-    $('.mobile-site-links').toggleClass('hidden');
-  });
-
-  $('.mobile-menu a').on('click', function() {
-    console.log('huzzahhh');
-    location.reload(true);
-  });
-
-});
