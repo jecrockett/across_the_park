@@ -308,8 +308,12 @@ footer {
       font-style: italic;
     }
   }
-  a:hover {
+  a {
     color: $purple;
+    font-weight: bold
+  }
+  a:hover {
+    color: $orange;
   }
 }
 
