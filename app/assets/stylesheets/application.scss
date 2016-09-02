@@ -191,11 +191,19 @@ nav {
   border-radius: 10px;
 }
 
+.videos {
+  text-align: center;
+  font-family: 'Avenir';
+  p {
+    padding-bottom: 40px;
+  }
+}
+
 .press {
   width: 70%;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 30px;
+  padding: 30px;;
 }
 
 .press-piece {
