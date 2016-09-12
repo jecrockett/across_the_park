@@ -14,3 +14,28 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+;(function($) {
+     $(function() {
+         $('#monterubio').on('click', function(e) {
+             e.preventDefault();
+             $('#monterubio-bio').bPopup({
+               position: ['auto', 30]
+             });
+         });
+
+         $('#fahlsing').on('click', function(e) {
+             e.preventDefault();
+             $('#fahlsing-bio').bPopup({
+               position: ['auto', 30]
+             });
+         });
+
+         $('#maggiotto').on('click', function(e) {
+             e.preventDefault();
+             $('#maggiotto-bio').bPopup({
+               position: ['auto', 30]
+             });
+         });
+      });
+  })(jQuery);
