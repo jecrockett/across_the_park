@@ -686,11 +686,15 @@ footer {
    .tix-info {
      padding: 30px 0;
      a {
-       width: 90%;
-       height: 2em;
-       font-size: 3em;
+       width: 66%;
+       height: 2.5em;
+       font-size: 1.8em;
        padding-top: 50px;
      }
+   }
+
+   #team-actionbtns {
+     margin-top: 50px;
    }
 
    .section-title {
