@@ -139,13 +139,31 @@ nav {
   }
 }
 
+#preview-performance {
+  font-size: .8em;
+  letter-spacing: 1px;
+}
+
 .about-block1 {
   margin-top: 50px;
-  width: 33%;
-  .about-dates {
-    font-size: 2.1em;
-    letter-spacing: 4px;
-    padding: 10px 0;
+  width: 30%;
+  .date-container {
+    position: relative;
+    width: 100%;
+    display:inline-block;
+    .show-wkday {
+      font-size: 1em;
+      letter-spacing: 19px;
+    }
+    .show-datetime {
+      font-size: 3em;
+    }
+    div {
+      margin-top: 30px;
+    }
+    div:first-child {
+      margin: 0;
+    }
   }
 }
 
