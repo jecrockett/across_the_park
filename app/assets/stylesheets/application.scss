@@ -146,7 +146,7 @@ nav {
 
 .about-block1 {
   margin-top: 50px;
-  width: 30%;
+  width: 380px;
   .date-container {
     position: relative;
     width: 100%;
@@ -159,11 +159,12 @@ nav {
       font-size: 3em;
     }
     div {
-      margin-top: 30px;
+      margin-top: 20px;
     }
-    div:first-child {
-      margin: 0;
+    .dates {
+
     }
+
   }
 }
 
@@ -537,9 +538,19 @@ footer {
   .about-block1 {
     margin-top: 50px;
     width: 100%;
-    text-align: center;
-    font-size: 1.8em;
+    .dates {
+      width: 380px;
+      margin: 0 auto;
+      div {
+        margin-top: 40px;
+      }
+      div:last-child {
+        margin-bottom: 20px;
+      }
+    }
   }
+
+
 
   .about-block2 {
     width: 100%;
@@ -603,8 +614,16 @@ footer {
   .about-block1 {
     margin-top: 50px;
     width: 100%;
-    text-align: center;
-    font-size: 1.8em;
+    .dates {
+      width: 380px;
+      margin: 0 auto;
+      div {
+        margin-top: 40px;
+      }
+      div:last-child {
+        margin-bottom: 20px;
+      }
+    }
   }
 
   .about-block2 {
@@ -691,6 +710,20 @@ footer {
 
    #small-hero {
      display: block;
+   }
+
+   .about-block1 {
+     .dates {
+       width: 100%;
+       margin-left: 3px;
+     }
+     div {
+       .show-wkday:first-child {
+         display: block;
+       }
+       padding-left: 4%;
+     }
+     font-size: 2em;
    }
 
    .about-block2 {
