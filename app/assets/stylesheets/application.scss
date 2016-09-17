@@ -142,6 +142,7 @@ nav {
 #preview-performance {
   font-size: .8em;
   letter-spacing: 1px;
+  display: block;
 }
 
 .about-block1 {
@@ -149,11 +150,12 @@ nav {
   width: 380px;
   .date-container {
     position: relative;
-    width: 100%;
-    display:inline-block;
+    width: 220px;
+    display:block;
+    margin: 0 auto;
     .show-wkday {
       font-size: 1em;
-      letter-spacing: 19px;
+      letter-spacing: 7px;
     }
     .show-datetime {
       font-size: 3em;
@@ -161,10 +163,6 @@ nav {
     div {
       margin-top: 20px;
     }
-    .dates {
-
-    }
-
   }
 }
 
@@ -539,7 +537,6 @@ footer {
     margin-top: 50px;
     width: 100%;
     .dates {
-      width: 380px;
       margin: 0 auto;
       div {
         margin-top: 40px;
@@ -712,18 +709,19 @@ footer {
      display: block;
    }
 
+
+
    .about-block1 {
+     font-size: 1.5em;
      .dates {
-       width: 100%;
-       margin-left: 3px;
+       width: 400px;
      }
      div {
-       .show-wkday:first-child {
-         display: block;
-       }
-       padding-left: 4%;
+       padding-left: 0;
      }
-     font-size: 2em;
+     .date-container {
+       margin: 0 auto;
+     }
    }
 
    .about-block2 {
