@@ -166,6 +166,12 @@ nav {
   }
 }
 
+.araca-img {
+  width: 80%;
+  // text-align: center;
+  padding-top: 35px;
+}
+
 .about-block2 {
   width: 52%;
   margin-top: 63px;
@@ -175,7 +181,23 @@ nav {
     line-height: 1.7em;
     padding-top: 10px;
     text-align: justify;
+    color: $gray;
   }
+  .araca-proj {
+    font-size: 19px;
+    width: 100%;
+    font-family: 'Avenir';
+    span {
+      font-style: italic;
+    }
+    a {
+      color: $purple;
+    }
+    a:hover {
+      color: $orange;
+    }
+  }
+
 }
 
 .section-title {
@@ -532,6 +554,15 @@ footer {
       display: block;
       margin-left: 0;
     }
+
+    // .araca-proj {
+    //   margin: 0 auto;
+    //   p {
+    //     width: 70%;
+    //     margin: 0 auto;
+    //
+    //   }
+    // }
   }
 
   .about-block1 {
@@ -558,6 +589,19 @@ footer {
     .summary-text {
       font-size: 1.5em;
       text-align: justify;
+    }
+    .araca-proj {
+      // font-size: .8em;
+      width: 100%;
+      // img {
+      //   width: 15%;
+      //   display: inline-block;
+      // }
+      // p {
+      //   width: 80%;
+      //   display: inline-block;
+      //   padding-top: 15px;
+      // }
     }
   }
 
