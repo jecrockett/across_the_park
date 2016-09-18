@@ -192,7 +192,8 @@ nav {
   font-size: 2em;
   letter-spacing: 8px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   a {
     display: block;
     width: 500px;
@@ -713,14 +714,14 @@ footer {
 
    .about-block1 {
      font-size: 1.5em;
-     .dates {
-       width: 400px;
-     }
-     div {
-       padding-left: 0;
-     }
+  //    div {
+  //      padding-left: 0;
+  //    }
      .date-container {
-       margin: 0 auto;
+       width: 55%;
+     }
+     .dates div {
+       margin-left: 50px;
      }
    }
 
