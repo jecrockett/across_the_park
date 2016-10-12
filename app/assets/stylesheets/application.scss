@@ -78,7 +78,7 @@ a {
 }
 
 .large-text {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .center-text {
@@ -247,7 +247,44 @@ nav {
   border-radius: 10px;
 }
 
+.testimonials {
+  padding-top: 30px;
+}
+
+.testimonial {
+  display: inline-block;
+  width: 49%;
+  text-align: justify;
+  p {
+    max-width: 450px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    line-height: 26px;
+  }
+  a {
+    color: $purple;
+  }
+  a:hover {
+    color: $orange;
+  }
+  .testimonial-quote {
+    color: $purple;
+    font-size: 1.2em;
+  }
+}
+
+.testimonial-credit {
+  font-size: 1.5em;
+}
+
+.subcredit {
+  font-size: .8em;
+  margin: 0 0;
+  padding: 0 0;
+}
+
 .videos {
+  margin-top: 30px;
   text-align: center;
   font-family: 'Avenir';
   p {
@@ -570,15 +607,6 @@ footer {
       display: block;
       margin-left: 0;
     }
-
-    // .araca-proj {
-    //   margin: 0 auto;
-    //   p {
-    //     width: 70%;
-    //     margin: 0 auto;
-    //
-    //   }
-    // }
   }
 
   .about-block1 {
@@ -595,8 +623,6 @@ footer {
     }
   }
 
-
-
   .about-block2 {
     width: 100%;
     .section-title {
@@ -607,17 +633,7 @@ footer {
       text-align: justify;
     }
     .araca-proj {
-      // font-size: .8em;
       width: 100%;
-      // img {
-      //   width: 15%;
-      //   display: inline-block;
-      // }
-      // p {
-      //   width: 80%;
-      //   display: inline-block;
-      //   padding-top: 15px;
-      // }
     }
   }
 
@@ -628,6 +644,14 @@ footer {
   .summary-container {
     width: 70%;
     margin: 0 auto;
+  }
+
+  .testimonial {
+    width: 100%;
+    padding-bottom: 30px;
+    p {
+      max-width: 70%;
+    }
   }
 }
 
@@ -707,6 +731,14 @@ footer {
       height: 300px;
     }
   }
+
+  .testimonial {
+    width: 100%;
+    padding-bottom: 30px;
+    p {
+      max-width: 70%;
+    }
+  }
 }
 
 @media (max-width : 585px) {
@@ -723,6 +755,14 @@ footer {
     padding-right: 30px;
     li:last-child {
       padding-right: 0;
+    }
+  }
+
+  .testimonial {
+    width: 100%;
+    padding-bottom: 30px;
+    p {
+      max-width: 70%;
     }
   }
 }
@@ -855,13 +895,17 @@ footer {
      margin: 0 auto;
    }
 
-   .team-title {
-    //  margin-top: 80px;
-
-   }
-
    .full-bio .bio-right .text {
      font-size: 2em;
+   }
+
+   .testimonial {
+     width: 100%;
+     margin: 30px;
+     p {
+       max-width: 70%;
+       line-height: 1.3em;
+     }
    }
 
  }
