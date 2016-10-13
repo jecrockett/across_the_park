@@ -52,6 +52,10 @@ $orange: #F6871F;
   color: #F6871F;
 }
 
+.italics {
+  font-style: italic;
+}
+
 .hidden {
   display: none;
 }
@@ -87,6 +91,10 @@ a {
 
 .avenir {
   font-family: 'Avenir', 'sans-serif';
+}
+
+.avenir-thin {
+  font-family: 'Avenir-Thin', 'sans-serif';
 }
 
 .phosphate {
@@ -194,7 +202,6 @@ nav {
   .araca-proj {
     font-size: 19px;
     width: 100%;
-    font-family: 'Avenir';
     span {
       font-style: italic;
     }
@@ -308,10 +315,10 @@ nav {
   margin: 0 auto;
   width: 250px;
   height: 250px;
-  border: 1px solid #9e9e9e;
+  border: 4px solid $purple;
   margin: 10px;
   img {
-    max-width: 247px;
+    max-width: 242px;
   }
   p {
     padding-top: 8px;
@@ -319,7 +326,7 @@ nav {
 }
 
 .press-piece:hover {
-  border: 1px solid $purple;
+  border: 4px solid $orange;
 }
 
 .location {
@@ -608,21 +615,8 @@ footer {
   .press {
     width: 95%;
   }
-
-  .press-piece {
-    margin: 0 auto;
-    width: 250px;
-    height: 250px;
-    border: 1px solid #9e9e9e;
-    margin: 10px;
-    img {
-      max-width: 247px;
-    }
-    p {
-      padding-top: 8px;
-    }
-  }
 }
+
 @media
 (min-width : 769px) and
 (max-width : 1024px)  {
@@ -873,25 +867,6 @@ footer {
 
    .section-title {
      font-size: 4em;
-   }
-
-   .press-piece {
-     margin: 0 auto;
-     width: 80%;
-     height: auto;
-     text-align: center;
-     border: 1px solid #9e9e9e;
-     padding: 10px;
-     img {
-       max-width: 100%;
-     }
-     p {
-       padding-top: 8px;
-       font-size: 1.8em;
-     }
-     p:first-child {
-       font-size: 2.3em;
-     }
    }
 
    #where-are-we {
