@@ -249,11 +249,13 @@ nav {
 
 .testimonials {
   padding-top: 30px;
+  text-align: center;
 }
 
 .testimonial {
   display: inline-block;
-  width: 49%;
+  width: 40%;
+  padding: 10px;
   text-align: justify;
   p {
     max-width: 450px;
@@ -293,10 +295,13 @@ nav {
 }
 
 .press {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 30px;;
+  padding: 10px;
+  div {
+    display: inline-block;
+  }
 }
 
 .press-piece {
@@ -304,8 +309,9 @@ nav {
   width: 250px;
   height: 250px;
   border: 1px solid #9e9e9e;
+  margin: 10px;
   img {
-    max-width: 249px;
+    max-width: 247px;
   }
   p {
     padding-top: 8px;
@@ -597,6 +603,24 @@ footer {
   .bio-links-container {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .press {
+    width: 95%;
+  }
+
+  .press-piece {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #9e9e9e;
+    margin: 10px;
+    img {
+      max-width: 247px;
+    }
+    p {
+      padding-top: 8px;
+    }
   }
 }
 @media
