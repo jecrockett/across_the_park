@@ -212,7 +212,10 @@ nav {
       color: $orange;
     }
   }
+}
 
+.mobile-araca-img {
+  display: none;
 }
 
 .section-title {
@@ -305,7 +308,7 @@ nav {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 10px;
+  padding-top: 50px;
   div {
     display: inline-block;
   }
@@ -828,19 +831,35 @@ footer {
      display: block;
    }
 
+   .araca-img {
+     display: none;
+   }
 
+   .mobile-araca-img {
+     display: block;
+     margin: 0 auto;
+   }
 
    .about-block1 {
-     font-size: 1.5em;
-  //    div {
-  //      padding-left: 0;
-  //    }
+     font-size: 1.6em;
      .date-container {
-       width: 55%;
+       width: 100%;
      }
-     .dates div {
-       margin-left: 50px;
+     .dates {
+       text-align: center;
+       div {
+         width: 40%;
+         display: inline-block;
+         padding: 20px;
+       }
+       .show-wkday {
+         font-size: 2em;
+       }
      }
+   }
+
+   #preview-performance {
+     font-size: 1.25em;
    }
 
    .about-block2 {
