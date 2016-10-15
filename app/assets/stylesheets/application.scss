@@ -786,6 +786,11 @@ footer {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+  body {
+    width: 106%;
+  }
+
   nav {
     height: 120px;
     .sm-links {
