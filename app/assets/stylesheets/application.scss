@@ -184,7 +184,7 @@ nav {
 
 .araca-img {
   width: 80%;
-  // text-align: center;
+  text-align: center;
   padding-top: 35px;
 }
 
@@ -229,14 +229,14 @@ nav {
 }
 
 .tix-info {
-  font-size: 2em;
+  font-size: .9em;
   letter-spacing: 8px;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
   a {
     display: block;
-    width: 500px;
+    width: 300px;
     margin: 0 auto;
   }
 }
@@ -631,18 +631,23 @@ footer {
   }
 
   .about-block1 {
-    margin-top: 50px;
     width: 100%;
+    .date-container {
+      width: 60%;
+      text-align: center;
+    }
     .dates {
-      margin: 0 auto;
+      text-align: center;
       div {
-        margin-top: 40px;
-      }
-      div:last-child {
-        margin-bottom: 20px;
+        display: inline-block;
+        padding: 20px;
       }
     }
+    .araca-img {
+      width: 250px;
+    }
   }
+
 
   .about-block2 {
     width: 100%;
@@ -715,17 +720,20 @@ footer {
   }
 
   .about-block1 {
-    margin-top: 50px;
     width: 100%;
+    .date-container {
+      width: 80%;
+      text-align: center;
+    }
     .dates {
-      width: 380px;
-      margin: 0 auto;
+      text-align: center;
       div {
-        margin-top: 40px;
+        display: inline-block;
+        padding: 20px;
       }
-      div:last-child {
-        margin-bottom: 20px;
-      }
+    }
+    .araca-img {
+      width: 250px;
     }
   }
 
@@ -765,10 +773,6 @@ footer {
 @media (max-width : 585px) {
   .about-dates span {
     display: block;
-  }
-
-  .tix-info a {
-    width: 90%;
   }
 
   footer {
