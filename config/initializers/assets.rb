@@ -9,4 +9,4 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
-Rails.application.config.assets.precompile += %w( reset.css jquery.bpopup.min.js)
+Rails.application.config.assets.precompile += %w( reset.css owl.carousel.css owl.theme.css owl.carousel.js owl.carousel.min.js jquery.bpopup.min.js)

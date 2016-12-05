@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'team', to: 'main#team'
   get 'contact', to: 'main#contact'
   post 'contacted', to: 'emails#create'
+  get 'media', to: 'main#media'
 end

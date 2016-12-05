@@ -388,6 +388,57 @@ footer {
   }
 }
 
+/* ====== MEDIA PAGE ===== */
+.media-title {
+  padding: 10px;
+}
+
+.carousel-container {
+  text-align: center;
+  span {
+    font-family: 'avenir';
+  }
+  width: 100%;
+  margin: 0 auto;
+  height: 520px;
+  .owl-carousel div img {
+    height: 500px;
+    max-width: 100%;
+    width: auto;
+  }
+  .owl-item {
+    div img {
+      margin: 0 auto;
+    }
+  }
+}
+.owl-carousel {
+  float: right;
+  max-height: 520px;
+  .owl-stage-outer {
+    max-height: 520px;
+  }
+}
+
+.carousel-buttons-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  button {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border: 1px black;
+    border-radius: 3px;
+    background-color: $purple;
+    color: black;
+    font-size: 1.3em;
+    font-family: 'avenir';
+    width: 100px;
+
+  }
+}
+
 
 /* ====== TEAM PAGE ====== */
 
@@ -685,6 +736,11 @@ footer {
     p {
       max-width: 70%;
     }
+  }
+
+  nav .site-links li {
+    font-size: .7em;
+    padding: 0 8px;
   }
 }
 

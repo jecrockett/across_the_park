@@ -9,4 +9,7 @@ class MainController < ApplicationController
   def contact
   end
 
+  def media
+  end
+
 end

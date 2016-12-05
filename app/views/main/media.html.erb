@@ -1,0 +1,88 @@
+<h2 class="section-title media-title phosphate center-text">PHOTOS</h2>
+<div class="carousel-container">
+  <span>Drag left or right to scroll through images, or use the Prev/Next buttons below!</span>
+
+  <div class="owl-carousel">
+    <div><img src="assets/AtP-8321.jpg" alt="Across The Park Image 1"></div>
+    <div><img src="assets/AtP-8333.jpg" alt="Across The Park Image 2"></div>
+    <div><img src="assets/AtP-8398.jpg" alt="Across The Park Image 3"></div>
+    <div><img src="assets/AtP-8502.jpg" alt="Across The Park Image 5"></div>
+    <div><img src="assets/AtP-8560.jpg" alt="Across The Park Image 6"></div>
+    <div><img src="assets/AtP-8759.jpg" alt="Across The Park Image 7"></div>
+    <div><img src="assets/AtP-8801.jpg" alt="Across The Park Image 8"></div>
+    <div><img src="assets/AtP-8837.jpg" alt="Across The Park Image 9"></div>
+    <div><img src="assets/AtP-8842.jpg" alt="Across The Park Image 10"></div>
+    <div><img src="assets/AtP-8851.jpg" alt="Across The Park Image 11"></div>
+    <div><img src="assets/AtP-8897.jpg" alt="Across The Park Image 12"></div>
+    <div><img src="assets/AtP-8908.jpg" alt="Across The Park Image 13"></div>
+    <div><img src="assets/AtP-8929.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-8952.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-8984.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9054.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9059.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9082.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9091.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9097.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9153.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9171.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9219.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9241.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9253.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9261.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9355.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9393.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9407.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9441.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9446.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9453.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9475.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9561.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9603.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9631.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9663.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9666.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9692.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9750.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9763.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9780.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9783.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9792.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9797.jpg" alt="Across The Park Image 4"></div>
+    <div><img src="assets/AtP-9801.jpg" alt="Across The Park Image 4"></div>
+  </div>
+</div>
+<div class="carousel-buttons-container">
+  <button class="carousel-prev">Previous</button>
+  <button class="carousel-next">Next</button>
+</div>
+
+<div class="videos">
+  <h2 class='section-title phosphate'>VIDEOS</h2>
+  <iframe src="https://player.vimeo.com/video/180106281" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <p>TRAILER</p>
+  <iframe src="https://player.vimeo.com/video/180106348" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <p>FUNDRAISING CAMPAIGN</p>
+  <iframe src="https://player.vimeo.com/video/180106133" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <p>BLOOPERS</p>
+</div>
+
+<script>
+$(document).ready(function(){
+  var $owl = $('.owl-carousel');
+
+  $owl.owlCarousel({
+    center: true,
+    margin: 10,
+    loop: true,
+    autoWidth: true,
+  });
+
+
+  $(".carousel-prev").on('click', function() {
+    $owl.trigger('prev.owl.carousel');
+  });
+  $(".carousel-next").on('click', function() {
+    $owl.trigger('next.owl.carousel');
+  });
+});
+</script>

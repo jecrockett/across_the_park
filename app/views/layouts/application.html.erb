@@ -4,7 +4,10 @@
   <title>AcrossThePark</title>
   <%= stylesheet_link_tag 'reset', media: 'all' %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'owl.carousel', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'owl.theme', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'owl.carousel.min', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'jquery.bpopup.min', 'data-turbolinks-track' => true %>
   <%= favicon_link_tag %>
 
@@ -36,6 +39,9 @@
         </li>
         <li>
           <a href="team">CAST & CREATIVE</a>
+        </li>
+        <li>
+          <a href="media">PHOTOS & VIDEOS</a>
         </li>
         <li>
           <a href="contact">CONTACT</a>
@@ -102,6 +108,6 @@
     $('.mobile-site-links').toggleClass('hidden');
   });
   </script>
-
+  <!-- <script src="owlcarousel/owl.carousel.min.js"></script> -->
 </body>
 </html>

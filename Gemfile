@@ -32,7 +32,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'font-awesome-sass'
 gem 'figaro'
-gem 'owlcarousel-rails'
 
 group :production do
   gem 'pg'
