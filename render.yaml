@@ -1,9 +1,9 @@
 services:
   - type: web
-  name: across-the-park
-  env: ruby
-  buildCommand: "./bin/render-build.sh"
-  startCommand: "bundle exec puma -C config/puma.rb"
-  envVars:
-    - key: SECRET_KEY_BASE
-      sync: false
+    name: across-the-park
+    env: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: SECRET_KEY_BASE
+        sync: false
