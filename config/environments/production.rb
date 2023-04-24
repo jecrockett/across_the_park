@@ -22,7 +22,7 @@ Rails.application.configure do
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
-  config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
+  config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present? || ENV['RENDER'].present?
   # config.serve_static_assets = true
 
   # Compress JavaScripts and CSS.
@@ -67,15 +67,15 @@ Rails.application.configure do
   # config.action_mailer.default_url_options = { :host => 'api.hotelengine.com' }
    # ActionMailer Config
    # Setup for production - deliveries, no errors raised
-   ActionMailer::Base.smtp_settings = {
-     :user_name => ENV['SENDGRID_USERNAME'],
-     :password => ENV['SENDGRID_PASSWORD'],
-     :domain => 'http://acrosstheparkplay.herokuapp.com',
-     :address => 'smtp.sendgrid.net',
-     :port => 587,
-     :authentication => :plain,
-     :enable_starttls_auto => true
-   }
+  #  ActionMailer::Base.smtp_settings = {
+  #    :user_name => ENV['SENDGRID_USERNAME'],
+  #    :password => ENV['SENDGRID_PASSWORD'],
+  #    :domain => 'http://acrosstheparkplay.herokuapp.com',
+  #    :address => 'smtp.sendgrid.net',
+  #    :port => 587,
+  #    :authentication => :plain,
+  #    :enable_starttls_auto => true
+  #  }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
